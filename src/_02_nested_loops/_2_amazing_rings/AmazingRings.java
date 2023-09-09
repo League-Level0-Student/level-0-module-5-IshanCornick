@@ -8,7 +8,7 @@ import processing.core.PImage;
  * 
  * 1. Open the demonstration for this recipe by opening the Recipe.html
  *    file in this folder.
- * 
+ *
  * In the setup() method:
  * 2. Set the size of your window to be a rectangle like in the recipe
  *    demonstration
@@ -38,7 +38,7 @@ import processing.core.PImage;
  */
 public class AmazingRings extends PApplet {
     static final int WIDTH = 800;
-    static final int HEIGHT = 600;
+    static final int HEIGHT = 800;
 
     PImage waldo;
 
@@ -49,7 +49,7 @@ public class AmazingRings extends PApplet {
 
     @Override
     public void setup() {
-
+    	noFill();
     }
 
     @Override
